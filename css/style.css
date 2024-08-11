@@ -1,0 +1,75 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.area-login{
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    outline: none;
+    padding-left: 10px;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.tittle{
+    margin-bottom: 40px;
+    color: white;
+}
+
+.area-login:hover{
+    background-color: rgb(30, 30, 30);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 93vh; 
+}
+
+.input-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background-color: rgb(40, 40, 40);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.button-login{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    cursor: pointer;
+
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+.button-login:hover{
+    background-color: rgb(30, 30, 30);
+}
